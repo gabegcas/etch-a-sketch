@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}
+
+.grid-container {
+    display: inline-grid;
+    border: 3px solid #000;
+    margin: 20px;
+
+    justify-self: center;
+    height: 600px;
+    width: 600px;
+}
+
+.grid-tools {
+    display: block;
+    margin: 20px;
+}
